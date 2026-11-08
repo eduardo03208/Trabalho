@@ -9,7 +9,7 @@
 <body>
 
   <header class="cabecalho">
-    <img class="logo" src="imagens/logo (1).png" alt="Logo"
+    <img class="logo" src="imagens/logo (1).png" alt="Logo">
     <p class="informacao2" id="info2">Informação 2</p>
   </header>
 
@@ -17,7 +17,7 @@
     <ul>
       <li><a href="#">Início</a></li>
       <li><a href="#">Sobre</a></li>
-      <li><a href="#">Serviços</a></li>
+      <li><a href="#servicos">Serviços</a></li>
       <li><a href="#">Contato</a></li>
     </ul>
   </nav>
@@ -29,6 +29,96 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </section>
   </main>
+
+  <section class="servicos" id="servicos">
+    <h2 class="servicos-titulo">Nossos Destaques</h2>
+    <div class="servicos-lista">
+      <article class="servico-card">
+        <div class="servico-icone" aria-hidden="true">🚀</div>
+        <h3>Atendimento Rápido</h3>
+        <p>Respondemos suas solicitações com agilidade, para que você não perca tempo e resolva tudo do jeito mais simples.</p>
+      </article>
+
+      <article class="servico-card">
+        <div class="servico-icone" aria-hidden="true">⭐</div>
+        <h3>Qualidade Garantida</h3>
+        <p>Trabalhamos com cuidado em cada detalhe, entregando resultados confiáveis e feitos para durar.</p>
+      </article>
+
+      <article class="servico-card">
+        <div class="servico-icone" aria-hidden="true">💬</div>
+        <h3>Suporte Dedicado</h3>
+        <p>Nossa equipe está pronta para tirar dúvidas e acompanhar você em todas as etapas do processo.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="cta-conteudo">
+      <h2>Pronto para começar?</h2>
+      <p>Entre em contato hoje mesmo e descubra como podemos ajudar você a alcançar seus objetivos. Será um prazer atender você!</p>
+      <a href="#" class="cta-botao">Fale conosco</a>
+    </div>
+  </section>
+
+
+  <section class="localizacao" id="localizacao">
+    <h2 class="localizacao-titulo">Onde estamos?</h2>
+    <div class="localizacao-grid">
+      <div class="localizacao-mapa">
+        <svg viewBox="0 0 400 300" role="img" aria-label="Ilustração de um mapa com a localização marcada">
+          <rect width="400" height="300" fill="#e8f0fe"/>
+          <rect x="20" y="20" width="110" height="80" rx="6" fill="#cfe3c0"/>
+          <rect x="160" y="20" width="100" height="80" rx="6" fill="#dfe6f2"/>
+          <rect x="290" y="20" width="90" height="80" rx="6" fill="#dfe6f2"/>
+          <rect x="20" y="130" width="110" height="60" rx="6" fill="#dfe6f2"/>
+          <rect x="290" y="130" width="90" height="60" rx="6" fill="#cfe3c0"/>
+          <rect x="20" y="220" width="240" height="60" rx="6" fill="#dfe6f2"/>
+          <rect x="290" y="220" width="90" height="60" rx="6" fill="#dfe6f2"/
+          <rect x="0" y="105" width="400" height="20" fill="#ffffff"/>
+          <rect x="0" y="195" width="400" height="20" fill="#ffffff"/>
+          <rect x="135" y="0" width="20" height="300" fill="#ffffff"/>
+          <rect x="265" y="0" width="20" height="300" fill="#ffffff"/>
+
+          <path d="M210 70c-18 0-32 14-32 32 0 24 32 56 32 56s32-32 32-56c0-18-14-32-32-32z" fill="#1e3a8a"/>
+          <circle cx="210" cy="102" r="12" fill="#facc15"/>
+        </svg>
+      </div>
+
+      <address class="localizacao-info">
+        <h3>Nossa sede</h3>
+        <p><strong>Endereço:</strong> Rua sei la, 123 – Centro</p>
+        <p><strong>Cidade:</strong> Uniao da Vitoria – UF</p>
+        <p><strong>CEP:</strong> 111111</p>
+        <p><strong>Referência:</strong> Próximo à praça central</p>
+        <p><strong>Horário:</strong> Segunda a sexta, das 8h às 18h</p>
+      </address>
+    </div>
+  </section>
+   <section class="faq" id="faq" aria-labelledby="faq-titulo">
+    <h2 class="faq-titulo" id="faq-titulo">Perguntas frequentes</h2>
+    <div class="faq-lista">
+      <details class="faq-item">
+        <summary>Como posso entrar em contato com vocês?</summary>
+        <p>Você pode nos escrever pelo e-mail informado no rodapé da página ou visitar nossa sede no endereço indicado na seção "Onde estamos?". Respondemos todas as mensagens em até um dia útil.</p>
+      </details>
+ 
+      <details class="faq-item">
+        <summary>Qual é o horário de atendimento?</summary>
+        <p>Atendemos de segunda a sexta-feira, das 8h às 18h. Mensagens enviadas fora desse horário são respondidas no próximo dia útil.</p>
+      </details>
+ 
+      <details class="faq-item">
+        <summary>Vocês oferecem suporte após a contratação?</summary>
+        <p>Sim! Nossa equipe de suporte dedicado acompanha você em todas as etapas e continua disponível para tirar dúvidas mesmo depois que o serviço for entregue.</p>
+      </details>
+ 
+      <details class="faq-item">
+        <summary>Preciso agendar uma visita antes de ir até a sede?</summary>
+        <p>Não é obrigatório, mas recomendamos o agendamento para garantir que alguém da equipe esteja disponível para atender você sem espera.</p>
+      </details>
+    </div>
+  </section>
 
   <footer class="rodape">
     <div>
@@ -50,6 +140,7 @@
       </ul>
     </div>
   </footer>
+  
 
 </body>
 </html>
