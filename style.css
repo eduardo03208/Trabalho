@@ -220,6 +220,7 @@ body {
     justify-content: center;
   }
 
+
   .menu a {
     padding: 12px 4px;
   }
@@ -256,6 +257,7 @@ body {
 
 .localizacao-grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;  
   gap: 40px;
   align-items: center;
   max-width: 1000px;
@@ -390,14 +392,12 @@ body {
   line-height: 1.7;
 }
 
-/* Tablets */
 @media (max-width: 900px) {
   .faq {
     padding: 50px 24px;
   }
 }
 
-/* Smartphones */
 @media (max-width: 768px) {
   .faq {
     padding: 40px 16px;
@@ -419,5 +419,4 @@ body {
   .faq-item p {
     padding: 0 16px 16px;
   }
-}
 }
