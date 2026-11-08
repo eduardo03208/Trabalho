@@ -89,7 +89,6 @@ body {
   border-bottom-color: #facc15;
 }
 
-/* Conteúdo principal */
 .corpo {
   max-width: 1000px;
   margin: 0 auto;
@@ -221,7 +220,6 @@ body {
     justify-content: center;
   }
 
-  /* Ajustes visuais adicionados */
   .menu a {
     padding: 12px 4px;
   }
@@ -258,7 +256,6 @@ body {
 
 .localizacao-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;   /* mapa | informações */
   gap: 40px;
   align-items: center;
   max-width: 1000px;
@@ -422,4 +419,5 @@ body {
   .faq-item p {
     padding: 0 16px 16px;
   }
+}
 }
